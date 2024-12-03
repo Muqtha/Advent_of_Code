@@ -17,11 +17,9 @@ import bisect
 # very similar. Maybe you can help The Historians reconcile their lists?
 #
 # @Task:
-# You have two lists, pair up the numbers and measure how far apart they are.
-# Pair up the smallest number in the left list with the smallest number in the right list,
-# then the second-smallest left number with the second-smallest right number, and so on.
-# Find the total distance between the left list and the right list, add up the distances between
-# all of the pairs you found.
+# This time, you'll need to figure out exactly how often each number from the left list appears in the right list.
+# Calculate a total similarity score by adding up each number in the left list after multiplying it by the number of
+# times that number appears in the right list.
 #
 #################################
 
